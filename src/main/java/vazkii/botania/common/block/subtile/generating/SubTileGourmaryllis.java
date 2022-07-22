@@ -87,7 +87,7 @@ public class SubTileGourmaryllis extends SubTileGenerating {
 						lastFoodCount = 1;
 					}
 
-					int val = Math.min(12, ((ItemFood) stack.getItem()).getHealAmount(stack));
+					int val = ((ItemFood) stack.getItem()).getHealAmount(stack);
 					digestingMana = val * val * 70;
 					digestingMana *= 1F / lastFoodCount;
 					cooldown = val * 10;
