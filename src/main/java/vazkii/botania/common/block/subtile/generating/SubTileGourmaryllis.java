@@ -126,7 +126,7 @@ public class SubTileGourmaryllis extends SubTileGenerating {
 
 	@Override
 	public int getMaxMana() {
-		return 9000;
+		return 28000; //update to max possible
 	}
 
 	@Override
